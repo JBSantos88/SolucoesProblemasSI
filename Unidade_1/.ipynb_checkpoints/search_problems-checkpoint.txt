@@ -1,0 +1,87 @@
+* Problema do passeio do cavalo:
+
+	No jogo de xadrez, um lance com o cavalo exige 2 movimentos: o primeiro movimento o desloca para uma das casas 
+	imediatamente adjacentes vertical ou horizontalmente; o segundo movimento o desloca em duas casas numa
+	direção perpendicular ao do movimento anterior.
+	Um tabuleiro de xadrez é formado por uma grade bidimensional regular de 8 linhas e 8 colunas. 
+	Com o cavalo inicialmente em um dos cantos do tabuleiro, encontre o menor número de lances para levá-lo ao canto oposto.
+
+
+* Problema das 8 rainhas:
+
+	No jogo de xadrez, diz-se que uma rainha ameaça outra se estão na mesma coluna, linha ou diagonal. 
+	Encontre como dispor 8 rainhas em um tabuleiro de xadrez de forma que nenhuma rainha esteja ameaçada.
+
+
+* Problema de se encontrar o menor caminho passando-se por dois pontos:
+
+	Em um labirinto representado por uma grade bidimensional regular, um avatar está na casa marcada com um 'A', um 'X' designa uma parede,
+	'O' representa pontos por onde se deseja passar e um espaço representa uma casa vazia. Para o seguinte labirinto:
+	
+	XXXXXXXXXXXXXXXXXX
+	XA               X
+	X                X
+	X   XXXXX        X
+	X      O  XXXXX  X
+	X         X      X
+	X         X  O   X
+	XXXXXXXXXXXXXXXXXX
+
+	encontre o menor caminho que leva o avatar a passar pelos dois pontos marcado pela letra 'O'.
+
+* Problema de encontrar um caminho com limitação de autonomia:
+
+	Um conjunto de cidades distam uma da outra da seguinte forma:
+	
+A cidade 'A' está uma distância de 15km da cidade 'B' e 30km da cidade 'C',
+A cidade 'B' está uma distância de 70km da cidade 'D' e 10km da cidade 'H',
+A cidade 'C' está uma distância de 10km da cidade 'E' e 60km da cidade 'G',
+A cidade 'D' está uma distância de 20km da cidade 'G' e 20km da cidade 'C',
+A cidade 'E' está uma distância de 40km da cidade 'F' e 60km da cidade 'G',
+A cidade 'F' está uma distância de 60km da cidade 'B' e 70km da cidade 'C',
+A cidade 'G' está uma distância de 10km da cidade 'D' e 15km da cidade 'H',
+A cidade 'H' está uma distância de 50km da cidade 'G' e 40km da cidade 'A'.
+
+Com um veículo com autonomia para apenas 80km, encontre um caminho partindo da cidade 'A' para a cidade 'F'.
+
+* Problema de encontrar um caminho passando por duas cidades:
+
+Repita o problema anterior, sem a restrição de autonomia porém encontrando o caminho com o menor número de cidades a serem visitas partindo da cidade 'A' e passando pelas cidade 'H' e 'E'.
+
+* Problema de "zerar os números" (https://www.mathplayground.com/logic_zero_numbers.html):
+
+	Considere a seguinte matriz:
+
+  0 0 0 0 0
+  0 0 1 0 0
+  0 1 1 9 0
+  1 5 6 1 1.
+
+Neste problema, cada elemento 0 na matriz representa um casa vazia. 
+As demais casas representam cartas com o valores indicados.
+Em cada lance é possível mover uma carta de origem sobre uma carta de destino que esteja imediatamente 
+adjacente vertical ou horizontalmente à carta de origem.
+Quando uma carta é movida sobre outra, é atribuído 0 ao elemento da matriz correspondente à carta de origem; 
+para o elemento correspondente à carta de destino, é atribuído: 0 se as duas cartas tiverem o mesmo valor ou a soma 
+dos valores das cartas em caso contrário.
+
+Encontre o menor número de lances que deixa a matriz apenas com zeros.
+
+* Problema de ordenar os elementos de uma matriz com rotações de linhas e colunas:
+
+Considere a seguinte matriz:
+
+  3 8 2
+  6 4 1
+  9 7 5.
+
+Neste problema, ao se fazer "a rotação de uma linha da matriz", cada elemento daquela linha é deslocado em uma posição
+para a direita, exceto o último que é movido para a primeira posição da linha. 
+Ao se fazer "a rotação de uma coluna da matriz", cada elemento daquela coluna é deslocado em uma posição para baixo, 
+exceto o último que é movido para a primeira posição da coluna.
+
+Encontre a menor sequência de rotações de linhas e colunas a serem aplicadas para que a matriz fique da seguinte forma:
+
+  1 2 3
+  4 5 6
+  7 8 9.
